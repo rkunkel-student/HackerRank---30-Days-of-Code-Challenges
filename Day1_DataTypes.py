@@ -56,16 +56,14 @@ if __name__ == '__main__':
     You will not pass this challenge if you attempt to assign the Sample Case values to your variables instead of 
     following the instructions above and reading input from stdin.                                                                                                                                                                                                                    
     """
+
     i = 4
     d = 4.0
     s = 'HackerRank '
-    # Declare second integer, double, and String variables.
-    sInt = 0
-    sDouble = 0.0
-    sStr = ''
 
+    # Declare second integer, double, and String variables.
     # Read and save an integer, double, and String to your variables.
-    sInt = int(input().strip())
+    sInt = sInt = int(input().strip())
     sDouble = float(input().strip())  # Python's built-in float-type has double precision (it's a C double in CPython)
     sStr = input().strip()
 
@@ -77,11 +75,7 @@ if __name__ == '__main__':
 
     # Concatenate and print the String variables on a new line
     # The 's' variable above should be printed first.
-    print(s + sStr)                         # String Concatenation, does not create a new string
-
-    # There's never only a single way to accomplish something, uncomment the code below to see how else to complete the
-    # third portion of this exercise.
-
+    print(s + sStr)                           # String Concatenation, does not create a new string
     # print(''.join([s, sStr]))               # String Concatenation, returns a new string
     # print('%s@%s' % (s, sStr))              # String Formatting - It's worth noting that the % notation is deprecated
     # print('{0}@{1}'.format(user, host))     # String Formatting - It's worth noting that the .format() is deprecated
