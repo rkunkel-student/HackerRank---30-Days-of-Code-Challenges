@@ -48,7 +48,7 @@ if __name__ == '__main__':
     Brief       : Explanation
 
     When we sum the integers 4 and 12, we get the integer 16.
-    When we sum the floating-point numbers  and 4.0, 4.0 we get 8.0.
+    When we sum the floating-point numbers 4.0 and 4.0, we get 8.0.
     When we concatenate 'HackerRank ' with 'is the best place to learn and practice coding!', we get 
     'HackerRank is the best place to learn and practice coding!'.
 
