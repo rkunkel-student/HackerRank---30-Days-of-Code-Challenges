@@ -63,6 +63,6 @@ if __name__ == '__main__':
         elif N > 20:
             print("Not Weird")
 
-        # One-line Solution
-        # true-expression ["if" conditional "else" false-expression]
-        # print("Not Weird") if N % 2 == 0 and (N < 6 or N > 20) else print("Weird")
+    # One-line Solution
+    # true-expression ["if" conditional "else" false-expression]
+    # print("Not Weird") if N % 2 == 0 and (N < 6 or N > 20) else print("Weird")
